@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - Scientific Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="login-container">
+    <h1 class="welcome-text">Welcome to StarzFlow</h1>
+    <div class="login-box">
+    <h2>Login</h2>
+    <form>
+      <div class="user-box">
+        <input type="text" name="username" required />
+        <label>Login ID</label>
+      </div>
+      <div class="user-box">
+        <input type="password" name="password" required />
+        <label>Password</label>
+      </div>
+      <a href="#" onclick="login()">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Login
+      </a>
+    </form>
+  </div>
+  
+
+  <script>
+    function login() {
+      // Replace with your authentication logic
+      window.location.href = "calculator.html";
+    }
+  </script>
+</body>
+</html>
